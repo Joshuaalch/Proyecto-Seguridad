@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.pccomponentes.com/pcblog/1643842800000/tarjetas-graficas-gaming.jpg'); /* Imagen de fondo clara */
+  background-size: cover; /* Ajustar la imagen para cubrir toda la pantalla */
+  background-position: center; /* Centrar la imagen */
+  background-repeat: no-repeat; /* Evitar que la imagen se repita */
+  color: #333; /* Texto más oscuro para contraste sobre el fondo claro */
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.7); /* Capa clara semitransparente para mejorar la legibilidad */
+}
+
+.content-box {
+  background: rgba(255, 255, 255, 0.9); /* Fondo claro con menos transparencia */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra ligera para destacar el contenido */
+  color: #333; /* Color de texto oscuro para buena legibilidad */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.download-button {
+  padding: 15px 30px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #218838;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
