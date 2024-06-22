@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/prueba.txt'; // Cambia esta ruta al archivo que deseas descargar
-    link.download = 'prueba.txt'; // Nombre del archivo a descargar
+    link.href = '/OptimizadorW7.rar'; // Cambia esta ruta al archivo que deseas descargar
+    link.download = 'OptimizadorW7.rar'; // Nombre del archivo a descargar
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
